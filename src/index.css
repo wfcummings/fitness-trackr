@@ -40,6 +40,13 @@ a:hover {
 ul,
 ol {
   padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2ch;
+}
+
+button {
+  margin-left: 0.5ch;
 }
 
 p[role="alert"] {
